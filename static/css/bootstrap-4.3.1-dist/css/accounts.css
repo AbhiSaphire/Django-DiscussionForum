@@ -1,0 +1,15 @@
+body{
+	background-image: url(../img/dot-grid.png);
+}
+
+.logo{
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.logo a{
+	color: rgba(0, 0, 0, .9);
+}
+
+.logo a:hover, .logo a:active{
+	text-decoration: none;
+}
