@@ -4,7 +4,7 @@
 	{{ board.name }} - {{block.super}}
 {% endblock%}
 
-{% block breadcrum %}
+{% block breadcrumb %}
 	<li class="breadcrumb-item"><a href="{% url 'home' %}">Discussions</a></li>
 	<li class="breadcrumb-item active" aria-current="page">{{ board.name }}</li>
 {% endblock %}
